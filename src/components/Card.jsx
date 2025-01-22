@@ -1,3 +1,5 @@
+import propTypes from 'prop-types'
+
 function Card({src, titleName, text}) {
   return (
     <div className="col-sm-6 col-md-3 m-2">
@@ -10,6 +12,15 @@ function Card({src, titleName, text}) {
         </div>
     </div>
   )
+}
+
+Card.defaultProps = {
+    titleName: 'Default',
+    text: 'Default',
+}
+
+Card.propTypes = {
+    titleName: propTypes.string
 }
 
 export default Card

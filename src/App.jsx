@@ -19,13 +19,12 @@ function App() {
       <Nav/>
       <Hero/>
       <CardContainer>
-        <Card titleName="Nice View" text={descriptions[0]} src="https://picsum.photos/200?random=1"/>
-        <Card titleName="Awesome View" text={descriptions[1]} src="https://picsum.photos/200?random=2"/>
+        <Card titleName={5} text={descriptions[1]} src="https://picsum.photos/200?random=2"/>
         <Card titleName="Excellent View" text={descriptions[2]} src="https://picsum.photos/200?random=3"/>
         <Card titleName="Perfect View" text={descriptions[2]} src="https://picsum.photos/200?random=4"/>
         <Card titleName="Awesome View" text={descriptions[1]} src="https://picsum.photos/200?random=5"/>
         <Card titleName="Excellent View" text={descriptions[2]} src="https://picsum.photos/200?random=6"/>
-        <Card titleName="Perfect View" text={descriptions[2]} src="https://picsum.photos/200?random=7"/>
+        <Card src="https://picsum.photos/200?random=7"/>
       </CardContainer>
       <Footer/>
     </>
